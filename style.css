@@ -1,0 +1,132 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  background: #222222;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+p {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+#button {
+  cursor: pointer;
+  padding: 5px;
+}
+
+#button:hover {
+  background: rgb(125, 196, 250);
+  color: white;
+  transition: 0.5s;
+}
+
+.active {
+  background: rgb(125, 196, 250);
+  color: white;
+}
+
+header {
+  background: rgb(125, 196, 250);
+  color: white;
+  text-transform: uppercase;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 15px;
+}
+
+.wiki {
+  padding: 5px;
+}
+
+.language {
+  display: flex;
+  justify-content: space-between;
+}
+
+.language p {
+  margin-left: 20px;
+}
+
+.instruction {
+  margin: 20px auto 35px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  max-width: 50%;
+}
+
+.header_footer {
+  display: flex;
+  justify-content: center;
+  font-size: 0.7em;
+  background: white;
+  color: rgb(125, 196, 250);
+}
+
+.reset {
+  cursor: pointer;
+  padding: 5px;
+  margin: 0 50px;
+}
+
+.cheers {
+  text-align: center;
+  padding: 5px;
+  min-width: 160px;
+}
+
+.difficulty {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 50px;
+}
+
+.difficulty li {
+  margin: 0 5px;
+}
+
+/* palette css */
+
+#palette {
+  margin-top: 20px;
+}
+
+#easy_palette ul {
+  display: flex;
+  justify-content: center;
+}
+
+#normal_palette ul {
+  display: flex;
+  justify-content: center;
+}
+
+#hard_palette ul {
+  display: none;
+  justify-content: center;
+}
+
+.color_palette {
+  width: 150px;
+  height: 150px;
+  border-radius: 25px;
+  background: rgb(150, 150, 150);
+  margin: 10px;
+  cursor: pointer;
+}
